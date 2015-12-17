@@ -10,7 +10,7 @@ def read(f):
 
 setup(
     name='djed.static',
-    version='0.6.dev0',
+    version='0.6.dev1',
     description='Integration of BowerStatic into Pyramid for managing '
                 'static resources with Bower',
     long_description='\n\n'.join((read('README.rst'), read('CHANGES.txt'))),
@@ -29,6 +29,7 @@ setup(
     url='https://github.com/djedproject/djed.static',
     license='ISC License (ISCL)',
     keywords='djed pyramid pylons bower static bowerstatic',
+    namespace_packages=['djed'],
     packages=['djed.static'],
     include_package_data=True,
     install_requires=[
