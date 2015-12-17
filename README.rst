@@ -11,6 +11,12 @@ BowerStatic is a WSGI component that can serve static resources from
 front-end packages (JavaScript, CSS) that you install through the
 `Bower <http://bower.io>`_ package manager.
 
+Fork Note
+=========
+
+This is a fork to maintain Python 2.x compatibility, specifically targeting 2.6.
+
+
 Dependencies
 ============
 
